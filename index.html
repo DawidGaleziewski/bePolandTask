@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+  </head>
+  <body>
+
+    <form id="upload-file" class="upload-file">
+      <label for="upload-file__image">Upload image with EXIF</label>
+      <input id="upload-file__image" class="upload-file__image" type="file">
+      <input type="submit">
+    </form>
+
+    <section id="upload-preview">
+            <img id="img-output" src="" alt="">
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/exif-js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
